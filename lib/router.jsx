@@ -1,5 +1,5 @@
 FlowRouter.route('/', {
   action() {
-    ReactLayout.render(MainLayout, {content: [<Wall/>, <Card/>]});
+    ReactLayout.render(MainLayout, {content: [<Wall/>]});
   }
 });
